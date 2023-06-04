@@ -11,7 +11,7 @@ model = joblib.load(model_path)
 
 #ConfigKey
 firebaseConfig = {
-  'apiKey': "AIzaSyCQsNeoB_KiCz0yhdyvt-2NKXEFSXVNvWQ",
+  'apiKey': "         ",
   'authDomain': "ml-data-41350.firebaseapp.com",
   'projectId': "ml-data-41350",
   'databaseURL': "https://ml-data-41350-default-rtdb.asia-southeast1.firebasedatabase.app/",
