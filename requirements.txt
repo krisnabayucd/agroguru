@@ -1,2 +1,7 @@
 joblib
 scikit-learn
+seaborn
+matplotlib
+requests-toolbelt==0.10.1
+pyrebase5
+appengine-python-standard
