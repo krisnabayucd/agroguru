@@ -8,5 +8,5 @@ st.markdown("<div style='text-align: justify;'>Our app utilizes state-of-the-art
 st.text("")
 st.markdown("<div style='text-align: justify;'>At Agroguru, we are passionate about fostering innovation. That's why we embrace the open-source community, actively encouraging collaboration, contributions, and knowledge sharing. Feel free to explore our repository, contribute your expertise, or even build upon our work to create new and exciting solutions for the farming community.</div>", unsafe_allow_html=True)
 st.text("")
-st.write("GitHub Repository: [Insert your GitHub repository link here]")
+st.write("Check out our space: https://huggingface.co/spaces/agroguru/app/tree/main")
 st.markdown("<h1 style='color: #FF9933; text-align: center;'>🍉🍌🍍🌽🍆🍅🥒🥬🥕🥔🌿</h1>", unsafe_allow_html=True)
