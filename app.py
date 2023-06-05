@@ -11,7 +11,7 @@ model = joblib.load(model_path)
 
 #ConfigKey
 firebaseConfig = {
-  'apiKey': "         ",
+  'apiKey': "AIzaSyCQsNeoB_KiCz0yhdyvt-2NKXEFSXVNvWQ",
   'authDomain': "ml-data-41350.firebaseapp.com",
   'projectId': "ml-data-41350",
   'databaseURL': "https://ml-data-41350-default-rtdb.asia-southeast1.firebasedatabase.app/",
@@ -176,14 +176,14 @@ def main():
 
             # Save data to Firebase
             features_ref = db.child("features").push({
-                "feature1": feature1,
-                "feature2": feature2,
-                "feature3": feature3,
-                "feature4": feature4,
-                "feature5": feature5,
-                "feature6": feature6,
-                "feature7": feature7,
-                "prediction": prediction.item().title()
+                "N": feature1,
+                "P": feature2,
+                "K": feature3,
+                "temperature": feature4,
+                "humidity": feature5,
+                "ph": feature6,
+                "rainfall": feature7,
+                "label": prediction.item().title()
             })
 
             feedback = st.text_area("Leave your feedback", key="feedback_input")
